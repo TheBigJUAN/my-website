@@ -37,7 +37,9 @@ import { AlertModule, CarouselModule } from '@coreui/angular';
     MatNativeDateModule,
     ReactiveFormsModule,
     AlertModule,
-    CarouselModule
+    CarouselModule, 
+    RouterModule.forRoot([]),
+    RouterModule.forChild([])
     
   ],
   providers: [],
