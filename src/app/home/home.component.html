@@ -1,4 +1,9 @@
-<c-carousel>
+<mat-divider style="margin: 40px;"></mat-divider>
+<mat-card class="example-card">
+  <mat-card-title>Welcome to Juan's World</mat-card-title>
+  
+  <mat-card-content>
+    <c-carousel>
   <c-carousel-indicators></c-carousel-indicators>
   <c-carousel-inner>
     <c-carousel-item *ngFor="let slide of slides">
@@ -6,6 +11,7 @@
         alt="{{slide.title}}"
         class="d-block w-100"
         loading="lazy"
+        style="height: 600px;"
         src="{{slide.src}}"
       />
       <c-carousel-caption class="d-none d-md-block">
@@ -17,3 +23,9 @@
   <c-carousel-control [routerLink] caption="Previous" direction="prev"></c-carousel-control>
   <c-carousel-control [routerLink] caption="Next" direction="next"></c-carousel-control>
 </c-carousel>
+  </mat-card-content>
+  <mat-card-actions>
+    <button mat-button>LIKE</button>
+    <button mat-button>SHARE</button>
+  </mat-card-actions>
+</mat-card>

@@ -14,6 +14,8 @@ import {FormsModule, ReactiveFormsModule} from '@angular/forms';
 import {MatNativeDateModule} from '@angular/material/core';
 import {HttpClientModule} from '@angular/common/http';
 import { AlertModule, CarouselModule } from '@coreui/angular';
+import {MatCardModule} from '@angular/material/card';
+import {MatDividerModule} from '@angular/material/divider';
 
 @NgModule({
   declarations: [
@@ -39,7 +41,9 @@ import { AlertModule, CarouselModule } from '@coreui/angular';
     AlertModule,
     CarouselModule, 
     RouterModule.forRoot([]),
-    RouterModule.forChild([])
+    RouterModule.forChild([]),
+    MatCardModule,
+    MatDividerModule
     
   ],
   providers: [],

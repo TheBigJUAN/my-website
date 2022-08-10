@@ -16,8 +16,9 @@ export class HomeComponent  implements OnInit{
   ngOnInit(): void {
     this.slides[0] = {
       id: 0,
-      src: './assets/images/colorado_fall.jpg',
+      src: './assets/images/okstate_logo.jpg',
       title: 'First slide',
+
       subtitle: 'Nulla vitae elit libero, a pharetra augue mollis interdum.'
     };
     this.slides[1] = {
