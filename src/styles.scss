@@ -1,5 +1,10 @@
 /* You can add global styles to this file, and also import other style files */
 @import "~@coreui/coreui/scss/coreui";
+@font-face {
+  font-family: "GreatVibes-Regular";
+  src: local("GreatVibes-Regular"), url(./assets/fonts/GreatVibes-Regular.ttf) format("truetype");
+}
+
 body {
     font-family: Roboto, "Helvetica Neue", sans-serif;
     margin: 0;

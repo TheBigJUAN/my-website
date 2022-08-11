@@ -1,14 +1,10 @@
 
- 
-    <mat-toolbar color="primary">
-      <button mat-button [matMenuTriggerFor]="menu"><mat-icon>menu</mat-icon></button>
-      <!-- #enddocregion mat-menu-trigger-for -->
-      <mat-menu #menu="matMenu">
-        <button mat-menu-item>About Me</button>
-        <button mat-menu-item>Experience</button>
-        <button mat-menu-item>Skills</button>
-      </mat-menu>
-      <span>Juan Garcia</span>
+ <div>
+    <mat-toolbar class="container">
+      
+        
+      
+      <span class="container">Juan Garcia</span>
       <span class="example-spacer"></span>
       <button mat-icon-button class="example-icon favorite-icon" aria-label="Example icon-button with heart icon">
         <mat-icon>favorite</mat-icon>
@@ -16,6 +12,13 @@
       <button mat-icon-button class="example-icon" aria-label="Example icon-button with share icon">
         <mat-icon>share</mat-icon>
       </button>
-    </mat-toolbar>
-    <body><app-home></app-home></body>
+    </mat-toolbar></div>
+    <div class="button-div">
+      <button mat-button>About Me</button>
+      <mat-divider vertical class="veritcal-divider" ></mat-divider>
+        <button mat-button>Skills</button>
+        <mat-divider vertical class="veritcal-divider" ></mat-divider>
+        <button mat-button>Experience</button>
+      </div>
+    <body style="background-color: #faf0e6;"><app-home></app-home></body>
    <router-outlet></router-outlet>

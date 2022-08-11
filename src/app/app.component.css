@@ -1,3 +1,21 @@
 .example-spacer {
     flex: 1 1 auto;
   }
+  .container{
+    font-family: "GreatVibes-Regular", Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    align-items: center;
+    text-align: center;
+    background-color: #FFFAFA
+  }
+  .button-div{
+    display: flex;
+    justify-content: center;
+    padding-right: 70px;
+    padding-top: 1%;
+    
+  }
+  .veritcal-divider{
+    margin-left: 10px;
+    margin-right: 10px;
+  }
