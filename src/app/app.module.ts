@@ -19,9 +19,10 @@ import {MatDividerModule} from '@angular/material/divider';
 
 @NgModule({
   declarations: [
-    AppComponent,HomeComponent,
+    AppComponent,
+    HomeComponent,
     
-    HeroDetailComponent
+    
   ],
   imports: [
     BrowserModule,
@@ -43,7 +44,8 @@ import {MatDividerModule} from '@angular/material/divider';
     RouterModule.forRoot([]),
     RouterModule.forChild([]),
     MatCardModule,
-    MatDividerModule
+    MatDividerModule,
+    AppModule
     
   ],
   providers: [],
