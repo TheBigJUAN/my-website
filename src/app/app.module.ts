@@ -45,7 +45,7 @@ import {MatDividerModule} from '@angular/material/divider';
     RouterModule.forChild([]),
     MatCardModule,
     MatDividerModule,
-    AppModule
+    
     
   ],
   providers: [],
